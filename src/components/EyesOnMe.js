@@ -6,7 +6,7 @@ export default class EyesOnMe extends Component {
   render() {
     return (
       <div>
-        <button onFocus={}>Eyes on me</button>
+        <button onFocus={this.handleFocus}>Eyes on me</button>
       </div>
     )
   }
